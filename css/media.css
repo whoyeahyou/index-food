@@ -1,19 +1,75 @@
-@media (max-width: 1200px) {
-     .offer__niptisi {
-          display: flex;
-          flex-direction: column;
-          padding: 50px;
+@media (max-width: 1210px) {
+
+     .container {
+          max-width: 960px;
      }
 
-     .offer__niptisi__left {
-          text-align: center;
+     .delivery-card {
+          flex: 50%;
+          max-width: calc(50% - 30px);
      }
 
-     .offer__niptisi__right {
-          margin: 0;
+     .search-form {
+          margin-left: 40px;
+          margin-right: 40px;
      }
 
-     .offer__niptisi__right-button {
-          margin-top: 30px;
+     .tabs-content {
+          flex-wrap: wrap;
      }
+
+     .tabs-card {
+          flex: 50%;
+          max-width: calc(50% - 30px);
+     }
+
+}
+
+@media (max-width: 992px) {
+
+     .container {
+          max-width: 760px;
+     }
+
+     .slide {
+          padding: 70px;
+     }
+
+     .delivery-card {
+          flex: 50%;
+          max-width: calc(50% - 30px);
+     }
+}
+
+@media (max-width: 768px) {
+
+     .container {
+          max-width: 560px;
+     }
+
+     .header {
+          flex-wrap: wrap;
+     }
+
+     .search-form {
+          order: 5;
+          margin: 15px 0;
+     }
+
+     .promo {
+          flex-wrap: wrap;
+     }
+
+     .tabs-card {
+          max-width: 100%;
+     }
+
+}
+
+@media (max-width: 590px) {
+
+     .container {
+          max-width: 90%;
+     }
+
 }

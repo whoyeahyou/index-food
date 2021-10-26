@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-     max-width: 1194px;
+     max-width: 1200px;
      margin: auto;
 }
 
@@ -108,9 +108,9 @@ body {
 }
 
 .slide-summer {
-     background-image: url(../img/summer.png);
-     background-color: no-repeat;
+     background: url(../img/summer.png);
      background-size: cover;
+     background-repeat: no-repeat;
 }
 
 .slide:before {
@@ -259,6 +259,7 @@ body {
 
 .delivery-cards {
      display: flex;
+     justify-content: space-between;
      flex-wrap: wrap;
      margin: -15px;
      /* ! отрицательный для родительского */
@@ -461,23 +462,22 @@ body {
 
 /* todo — balls */
 
-.balls {
-     padding: 50px;
-}
 
 .balls-title {
-     margin-bottom: 50px;
+     margin: 50px 0;
      text-align: center;
 }
 
 .balls-cards {
      display: flex;
      justify-content: space-between;
+     margin: 0 -20px;
 }
 
 .balls-cards-item {
      border: 1px solid black;
      border-radius: 20px;
+     margin: 0 20px;
 }
 
 .balls-cards-image {
@@ -492,19 +492,4 @@ body {
 
 .balls-cards-description {
      text-align: center;
-}
-
-
-
-
-
-
-
-
-
-
-/*                     ЗАГЛУШКА             */
-
-.lol {
-     margin-top: 100px;
 }
