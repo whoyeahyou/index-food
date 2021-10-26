@@ -104,13 +104,30 @@ body {
      padding: 100px;
      position: relative;
      overflow: hidden;
-     /* ! прячем всё что вываливается ЗА */
 }
 
-.slide-summer {
-     background: url(../img/summer.png);
+.slide-summer-1 {
+     background: url(../img/summer-1.png);
      background-size: cover;
      background-repeat: no-repeat;
+     overflow: hidden;
+     object-fit: cover;
+}
+
+.slide-summer-2 {
+     background: url(../img/summer-2.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     overflow: hidden;
+     object-fit: cover;
+}
+
+.slide-summer-3 {
+     background: url(../img/summer-3.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     overflow: hidden;
+     object-fit: cover;
 }
 
 .slide:before {
@@ -359,6 +376,7 @@ body {
      font-size: 32px;
      line-height: 23px;
      color: #000000;
+     margin-top: 25px;
 }
 
 .tabs {
@@ -388,10 +406,10 @@ body {
 
 .tabs-card {
      max-width: 270px;
-     border-radius: 20px;
      overflow: hidden;
      background-color: #fff;
-     box-shadow: 0px 0px 10px 5px rgb(0 0 0 / 9%);
+     box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+     border-radius: 20px;
 }
 
 .tabs-card-content {
@@ -464,7 +482,11 @@ body {
 
 
 .balls-title {
-     margin: 50px 0;
+     font-weight: 500;
+     font-size: 32px;
+     line-height: 23px;
+     color: #000000;
+     margin: 97px 0 97px 0;
      text-align: center;
 }
 
@@ -475,9 +497,11 @@ body {
 }
 
 .balls-cards-item {
-     border: 1px solid black;
-     border-radius: 20px;
-     margin: 0 20px;
+     margin: 0 20px 100px;
+     padding: 31px;
+     border: 1px solid #E9E9E9;
+     box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+     border-radius: 18px;
 }
 
 .balls-cards-image {
@@ -487,9 +511,50 @@ body {
 
 .balls-cards-title {
      text-align: center;
-     margin-bottom: 10px;
+     margin-bottom: 15px;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 23px;
+     color: #000000;
 }
 
 .balls-cards-description {
      text-align: center;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 14px;
+     line-height: 22px;
+     color: #49494F;
+}
+
+
+/* todo — footer */
+
+
+.footer {
+     background: #F6F6F6;
+     padding: 40px 0;
+}
+
+.footer_content {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.footer_links {
+     display: flex;
+     align-items: center;
+}
+
+.footer_link {
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 23px;
+     color: #000000;
+     margin-left: 50px;
+}
+
+.footer_social_links {
+     margin-left: 15px;
 }
