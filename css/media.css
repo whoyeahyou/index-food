@@ -1,0 +1,19 @@
+@media (max-width: 1200px) {
+     .offer__niptisi {
+          display: flex;
+          flex-direction: column;
+          padding: 50px;
+     }
+
+     .offer__niptisi__left {
+          text-align: center;
+     }
+
+     .offer__niptisi__right {
+          margin: 0;
+     }
+
+     .offer__niptisi__right-button {
+          margin-top: 30px;
+     }
+}
